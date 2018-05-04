@@ -3,6 +3,7 @@ import { View, Text, Button, TextInput, Image } from "react-native";
 import Images from "../images";
 
 class Login extends Component {
+  static navigationOptions = { header: null };
   constructor(props) {
     super(props);
     this.state = { email: "", password: "" };
@@ -14,7 +15,8 @@ class Login extends Component {
           flex: 1,
           flexDirection: "column",
           justifyContent: "space-between",
-          alignItems: "center"
+          alignItems: "center",
+          backgroundColor: "#0671f5"
         }}>
         <View style={{ flexDirection: "column", alignItems: "center" }}>
           <Image source={Images.logo} />
