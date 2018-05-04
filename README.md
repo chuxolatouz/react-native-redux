@@ -3,4 +3,4 @@
 ### Instructions
 
 * install dependencies with `yarn`
-* run with `yarn start`
+* run with `yarn run android`
